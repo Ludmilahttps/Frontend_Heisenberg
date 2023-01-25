@@ -47,11 +47,11 @@ function LogIn() {
 
     return (
         <Form>
-            <img src="../../assets/MyWallet.svg"></img>
+            <p>Heisenberg</p>
             <input data-test="email" type="email" name="email" placeholder="email" disabled={sentRequest} onChange={(e) => setEmail(e.currentTarget.value)}/>
             <input test="password" type="password" name="password" placeholder="password" disabled={sentRequest} onChange={(e) => setPassword(e.currentTarget.value)}/>
             <button data-test="sign-in-submit" type='submit' disabled={sentRequest}  onClick={(e) => sendLogin(e)}>{sentRequest ? <ThreeDots height="18" width="30" color="white" ariaLabel="loading" wrapperStyle={{}} wrapperClassName=""/> : "LogIn" }</button>
-            <Link data-test="signup-link" to="/cadastro">
+            <Link to="/signup">
                 Don't have an account? Register
             </Link>
         </Form>
