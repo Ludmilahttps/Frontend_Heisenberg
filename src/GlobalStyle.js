@@ -34,6 +34,9 @@ const GlobalStyle = createGlobalStyle
         flex-direction: column;
         justify-context: center;
         align-items: center;
+        width: 100%;
+        height: 100%; 
+        background-color: #3b5b60;
     }
     ol, ul {
         list-style: none;
@@ -52,6 +55,11 @@ const GlobalStyle = createGlobalStyle
     }
     * {
         box-sizing: border-box;
+    }
+    #root {
+        top: 0;
+        width: 100%;
+        height: 100%; 
     }
 `
 
