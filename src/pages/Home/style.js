@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const HistoricScreen = styled.div
 `
-    background-color: #154789;
+    background-color: #F5F5F5;
     display: flex;
     position: fixed;
     flex-direction: column;
