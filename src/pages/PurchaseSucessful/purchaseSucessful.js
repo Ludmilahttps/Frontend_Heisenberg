@@ -3,8 +3,8 @@ import { UserContext } from "../../UserContext.js"
 import { useContext, useEffect } from 'react'
 import axios from "axios"
 import * as style from "./style.js"
-import blackBackArrow from "./assets/backArrow.png"
-import confirmed from "./assets/confirmed.png"
+import blackBackArrow from "../../assets/backArrow.png"
+import confirmed from "../../assets/confirmed.png"
 
 export default function PurchaseSucessful() {
     return (

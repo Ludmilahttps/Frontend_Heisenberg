@@ -9,7 +9,7 @@ import SignUp from "./pages/SignUp/SignUp"
 import Home from "./pages/Home/Home"
 import Payment from './pages/Payment/payment'
 import Adress from './pages/Adress/adress'
-import PurchaseSucessful from './pages/PuscahseSucessful/purchaseSucessful'
+import PurchaseSucessful from './pages/PurchaseSucessful/purchaseSucessful'
 
 function App() {
 
@@ -24,6 +24,7 @@ function App() {
           <Route path="/" element={< Home  />} />
           <Route path="/signin" element={< SignIn />} />
           <Route path="/signup" element={< SignUp />} />
+          <Route path="/home" element={< Home />} />
           <Route path="/payment" element={< Payment />} />
           <Route path="/adress" element={< Adress />} />
           <Route path="/sucess" element={< PurchaseSucessful />} />

@@ -3,11 +3,11 @@ import { UserContext } from "../../UserContext.js"
 import { useContext, useEffect } from 'react'
 import axios from "axios"
 import * as style from "./style.js"
-import blackBackArrow from "./assets/blackBackArrow.png"
-import masterCard from "./assets/masterCard.png"
-import barCode from "./assets/barCode.png"
-import pixVertical from "./assets/pixVertical.png"
-import pixHorizontal from "./assets/pixHorizontal.png"
+import blackBackArrow from "../../assets/blackBackArrow.png"
+import masterCard from "../../assets/masterCard.png"
+import barCode from "../../assets/barCode.png"
+import pixVertical from "../../assets/pixVertical.png"
+import pixHorizontal from "../../assets/pixHorizontal.png"
 
 
 export default function Payment() {

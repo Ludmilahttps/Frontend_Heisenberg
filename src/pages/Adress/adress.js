@@ -3,7 +3,7 @@ import { UserContext } from "../../UserContext.js"
 import { useContext, useEffect } from 'react'
 import axios from "axios"
 import * as style from "./style.js"
-import blackBackArrow from "./assets/blackBackArrow.png"
+import blackBackArrow from "../../assets/blackBackArrow.png"
 
 export default function Adress() {
     return (

@@ -29,7 +29,7 @@ const GlobalStyle = createGlobalStyle
     }
     body {
         line-height: 1;
-        margin: 70px 0;
+        margin: 0px 0px;
         display: flex;
         flex-direction: column;
         justify-context: center;
